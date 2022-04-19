@@ -445,8 +445,8 @@ ul.accordin-list ul.icon-buttons li {
   margin-bottom: 10px;
 }
 ul.icon-buttons li button {
-  background: none;
-  border: none;
+    background: none;
+    border: none;
 }
 ul.accordin-list ul.icon-buttons li button i {
   font-size: 30px;
@@ -708,7 +708,7 @@ ul.message-list p {
 
 /* about Top */
 section.about-top {
-  text-align: center;
+  /*text-align: center;*/
   color: #fff;
   margin-bottom: 80px;
 }
@@ -719,16 +719,16 @@ section.about-top h3 {
 section.about-top .content {
   font-size: 1rem;
   line-height: 1.8em;
-  margin: 0 auto 50px;
-  width: 60vw;
-  max-width: 800px;
+  margin: 0 auto 10px;
+  /*width: 60vw;*/
+  /*max-width: 800px;*/
   min-width: 280px;
 }
-section.about-top .container .about-card {
+/*section.about-top .container .about-card {
   position: relative;
   padding-top: 56.25%;
   width: 100%;
-}
+}*/
 section.about-top .container .about-card img {
   position: absolute;
   top: 0;
@@ -1651,8 +1651,15 @@ p.search-result-tag-description {
   section.marquee {
     padding-top: 80px;
   }
-  li.splide__slide div {
+  /*li.splide__slide div { // 原手機版正方形高度
     padding-top: 94%;
+  }*/
+  #splide-track{
+      padding-left:0%;
+      padding-right:0%;
+  }
+  ul.splide__pagination {
+      bottom: -1rem !important;
   }
   .feedbacks-intro {
     flex-direction: column;
